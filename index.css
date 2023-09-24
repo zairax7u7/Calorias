@@ -1,0 +1,50 @@
+.coloring{
+    width: 100px;
+    height: 30px;
+    border-radius: 40%;
+    background-color: white;
+    margin: 0.5em;
+    user-select: none;
+    border: 4px solid yellow;
+    box-shadow: 0 0 10px yellow;
+    font-weight: bold;
+}
+.otra{
+    width: 110px;
+}
+
+.coloring1{
+    user-select: none;
+    background-color: yellow;
+}
+
+.main{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.251);
+    height: 90vh;
+}
+
+body{
+    background-image:url(./60c5eaac67370da1b97176c492a7d274.png);
+    overflow: hidden;
+}
+
+.labl{
+    font-weight: bold;
+    font-size: 1em;
+    margin-left: 3px;
+}
+
+
+input{
+    text-align: center;
+    height: 20px;
+    width: 50%;
+    border: none;
+}
+
+.fl{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

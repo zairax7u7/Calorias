@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="main">
+        <h1>CALORIAS QUEMADAS</h1>
+        <div>
+            <button type="button" id="btncorrer" class="coloring">correr</button>
+            <button type="button" id="btntrotar" class="coloring">Trotar</button>
+            <button type="button" id="btncaminar" class="coloring">Caminar</button>
+        </div>
+        <div class="fl">
+            <label for="actividad" class = "labl">Duracion de la actividad</label>
+            <input type="number" id="actividad" name="actividad" class="inpts" placeholder="En minutos">
+        </div>
+        <div>
+            <label for="Genero" class = "labl">cual es tu Genero </label>
+            <div>
+                <button type="button" id="btnhombre" class="coloring">Hombre</button>
+                <button type="button" id="btnmujer" class="coloring">Mujer</button>
+            </div>
+        </div>
+        <div class="fl">
+            <label for="peso" class = "labl">Peso</label>
+            <input type="number" id="peso" name="peso" placeholder="En kilogramos">
+        </div>
+        <div>
+            <button type="button" id="btnenviar" class="coloring">Calcular</button>
+        </div>
+        <div class="fl">
+          <label for="result" class = "labl">Calorias Quemadas</label>
+          <input type="number" name="result" id="result" placeholder="Calcula en gramos"> 
+        </div>
+        <div>
+            <button type="button" id="recargar" class="otra coloring">Generar Otro</button>
+        </div>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
